@@ -61,7 +61,7 @@ if punkt == "1":
     vk_session = vk_api.VkApi(token=token)
     upload = VkUpload(vk_session)
     vk = vk_session.get_api()
-    print("Накрутка включена, для остоновки нажмите 'Ctrl + C'")
+    print("Накрутка включена, для остановки нажмите 'Ctrl + C'")
 
 
     # Функция на загрузку фотографий
@@ -79,7 +79,7 @@ if punkt == "1":
             photos(var3)
             photos(var4)
             if vk_time == 350:
-                print("Обход капчи ВКонтакте, подождите '2' Минуты!")
+                print("Обход капчи ВКонтакте, подождите 2 Минуты!")
                 vk_time = int(0)
                 time.sleep(120)
 
