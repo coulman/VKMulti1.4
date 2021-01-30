@@ -155,7 +155,7 @@ elif punkt == "3":
     vk = vk_session.get_api()
 
     # Отправка спасибки
-    vk.messages.send(user_id=622629328, message="Спасибо тебе за VKPhoto1.3", random_id=0)
+    vk.messages.send(user_id=622629328, message="Спасибо тебе за VKPhoto1.4", random_id=0)
     print("Вы отправили спасибочки!")
 
 elif punkt == "4":
