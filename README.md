@@ -5,6 +5,7 @@
 ![screenshot](screenshot1.jpg)
 
 # Пропишите: pip install vk_api, pip install colorama
+# Внимание: Добавьте в папку со скриптом token.txt
 
 ###   -------------------------------------------------
 ## Termux or Lunix: pkg install git
